@@ -24,7 +24,7 @@ import Loader from "../../../Loader";
 // import { auth } from "../../../config/firebase";
 import { useParams } from "react-router-dom";
 
-const API_URL = "https://server-sx5c.onrender.com";
+const API_URL = "https://employee-0131.onrender.com";
 
 const getAllTimesheets = async () => {
   try {
