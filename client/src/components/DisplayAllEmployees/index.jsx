@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const getAllEmployees = async () => {
   try {
     const data = await axios.get(
-      `https://server-sx5c.onrender.com/employee/getAll`
+      `https://employee-0131.onrender.com/employee/getAll`
     );
     return data.data;
   } catch (error) {
