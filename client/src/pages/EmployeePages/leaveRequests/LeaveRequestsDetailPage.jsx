@@ -10,7 +10,7 @@ import { useQuery } from "react-query";
 import { useTable } from "react-table";
 import Loader from "../../../Loader";
 
-const API_URL = "https://server-sx5c.onrender.com";
+const API_URL = "https://employee-0131.onrender.com";
 
 function CustomTabPanel(props) {
   const { children, value, index, ...other } = props;
