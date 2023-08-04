@@ -28,7 +28,7 @@ const Schema = yup.object().shape({
     .max(24, "Duration cannot be more than 24."),
 });
 
-const API_URL = "https://server-sx5c.onrender.com";
+const API_URL = "https://employee-0131.onrender.com";
 
 const sendTimeSheet = async (data) => {
   try {
