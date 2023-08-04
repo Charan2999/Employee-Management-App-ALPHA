@@ -10,7 +10,7 @@ const LeaveRequest = () => {
   const finalUser = useContext(AuthContext);
   const navigate = useNavigate();
   const [leaves, setLeaves] = useState([]);
-  const API_URL = "https://server-sx5c.onrender.com";
+  const API_URL = "https://employee-0131.onrender.com";
 
   // navigate to / if user is not logged in
 
