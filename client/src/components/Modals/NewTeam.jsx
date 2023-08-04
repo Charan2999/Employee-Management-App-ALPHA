@@ -33,7 +33,7 @@ const NewTeam = ({ visible, handleNewTeamButton, values }) => {
     try {
       if (teamName !== "") {
         const response = await axios.post(
-          "https://server-sx5c.onrender.com/team/createTeam",
+          "https://employee-0131.onrender.com/team/createTeam",
           {
             teamName: teamName,
             members: members.map((mem) => mem._id),
