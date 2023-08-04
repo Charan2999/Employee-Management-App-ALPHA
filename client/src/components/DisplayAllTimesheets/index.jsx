@@ -10,7 +10,7 @@ import { Button } from "@mui/material";
 import { Tooltip, message } from "antd";
 import Loader from "../../Loader";
 
-const API_URL = "https://server-sx5c.onrender.com";
+const API_URL = "https://employee-0131.onrender.com";
 const getAllTimesheets = async () => {
   try {
     const data = await axios.get(`${API_URL}/timesheet/getAll`);
