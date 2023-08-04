@@ -85,7 +85,7 @@ export default function FormDialog({ open, handleClose }) {
             gender: values.gender, // Include gender in the server request
           };
 
-          await fetch("https://server-sx5c.onrender.com/employee/save", {
+          await fetch("https://employee-0131.onrender.com/employee/save", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
