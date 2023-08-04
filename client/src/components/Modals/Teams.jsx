@@ -10,7 +10,7 @@ export const Teams = ({ visible, handleTeamModal, id }) => {
   const getAllTeams = async () => {
     try {
       const response = await axios.get(
-        `https://server-sx5c.onrender.com/team/getAll/`
+        `https://employee-0131.onrender.com/team/getAll/`
       );
       if (response.data.success) {
         var teamNames = response.data.teams.map((team) => team.teamName);
